@@ -1,3 +1,7 @@
+ALL THE DETAILS IN CLONING THE REPOSITORY FROM GITHUB.
+PLEASE CHECK THE LINK:
+https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+
 This is a Next.js project bootstrapped with create-next-app.
 
 Getting Started
