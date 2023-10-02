@@ -29,6 +29,6 @@ Open http://localhost:3000 with your browser to see the result.
 To overcome this, I would have started with online tutorials and courses to learn the basics of web development. </li>
 <li>Technical Issues: Technical glitches and bugs are common, especially for beginners. I would have been proactive in troubleshooting issues by searching for solutions online.</li>
 
-<h3>Overall, while building a website as a beginner can be challenging, dedication to learning and seeking assistance from online resources and communities can help overcome these challenges and create a beginner website. Although not all design is copy but I'll try making this exam my very best.</h3>
+<h3>Overall, while building a website as a beginner can be challenging, dedication to learning and seeking assistance from online resources and communities can help overcome these challenges and create a beginner website. Although not all design is copy but I'll try making this exam my very best. Also my dedication to make the website go on LIVE</h3>
 
 <center><h1></h1>Thank you and God Bless</h1></center>
