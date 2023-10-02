@@ -26,7 +26,7 @@ Open http://localhost:3000 with your browser to see the result.
 Consistent Branding: I maintained a consistent color scheme, typography, and overall branding throughout the website.
 Consistency helps in creating a professional and trustworthy impression.
 
-##Challenges Faced and How I'm Overcome:
+<h1>Challenges Faced and How I'm Overcome:</h1>
 
 <li>Limited Technical Knowledge: If I was a beginner, one of the major challenges might have been a lack of technical knowledge.</li>
 To overcome this, I would have started with online tutorials and courses to learn the basics of web development. 
