@@ -12,10 +12,10 @@ This is a Next.js project bootstrapped with create-next-app.
 Getting Started
 First, run the development server:
 
-<lin>npm run dev</li>
-<lin>yarn dev </li>
-<lin>pnpm dev</li>
-<lin>bun dev</li>
+<li>npm run dev</li>
+<li>yarn dev </li>
+<li>pnpm dev</li>
+<li>bun dev</li>
 
 Open http://localhost:3000 with your browser to see the result.
 
