@@ -73,30 +73,7 @@ const Section = () => {
             className="placeholder:text-gray-700 p-2 outline-none"
           />
         </div>
-        {countries?.map((country) => (
-          <li
-            key={country?.name}
-            className={`p-2 text-sm hover:bg-sky-600 hover:text-white
-            ${
-              country?.name?.toLowerCase() === selected?.toLowerCase() &&
-              "bg-sky-600 text-white"
-            }
-            ${
-              country?.name?.toLowerCase().startsWith(inputValue)
-                ? "block"
-                : "hidden"
-            }`}
-            onClick={() => {
-              if (country?.name?.toLowerCase() !== selected.toLowerCase()) {
-                setSelected(country?.name);
-                setOpen(false);
-                setInputValue("");
-              }
-            }}
-          >
-            {country?.name}
-          </li>
-        ))}
+        
       </ul>
     </div>
     <div className="w-72 font-medium py-8">
@@ -129,30 +106,7 @@ const Section = () => {
             className="placeholder:text-gray-700 p-2 outline-none"
           />
         </div>
-        {countries?.map((country) => (
-          <li
-            key={country?.name}
-            className={`p-2 text-sm hover:bg-sky-600 hover:text-white
-            ${
-              country?.name?.toLowerCase() === selected?.toLowerCase() &&
-              "bg-sky-600 text-white"
-            }
-            ${
-              country?.name?.toLowerCase().startsWith(inputValue)
-                ? "block"
-                : "hidden"
-            }`}
-            onClick={() => {
-              if (country?.name?.toLowerCase() !== selected.toLowerCase()) {
-                setSelected(country?.name);
-                setOpen(false);
-                setInputValue("");
-              }
-            }}
-          >
-            {country?.name}
-          </li>
-        ))}
+
       </ul>
     </div>
     <div className="w-72 font-medium py-8">
@@ -185,30 +139,7 @@ const Section = () => {
             className="placeholder:text-gray-700 p-2 outline-none"
           />
         </div>
-        {countries?.map((country) => (
-          <li
-            key={country?.name}
-            className={`p-2 text-sm hover:bg-sky-600 hover:text-white
-            ${
-              country?.name?.toLowerCase() === selected?.toLowerCase() &&
-              "bg-sky-600 text-white"
-            }
-            ${
-              country?.name?.toLowerCase().startsWith(inputValue)
-                ? "block"
-                : "hidden"
-            }`}
-            onClick={() => {
-              if (country?.name?.toLowerCase() !== selected.toLowerCase()) {
-                setSelected(country?.name);
-                setOpen(false);
-                setInputValue("");
-              }
-            }}
-          >
-            {country?.name}
-          </li>
-        ))}
+        
       </ul>
     </div>
     <div className="w-72 font-medium  py-8">
@@ -241,30 +172,7 @@ const Section = () => {
             className="placeholder:text-gray-700 p-2 outline-none"
           />
         </div>
-        {countries?.map((country) => (
-          <li
-            key={country?.name}
-            className={`p-2 text-sm hover:bg-sky-600 hover:text-white
-            ${
-              country?.name?.toLowerCase() === selected?.toLowerCase() &&
-              "bg-sky-600 text-white"
-            }
-            ${
-              country?.name?.toLowerCase().startsWith(inputValue)
-                ? "block"
-                : "hidden"
-            }`}
-            onClick={() => {
-              if (country?.name?.toLowerCase() !== selected.toLowerCase()) {
-                setSelected(country?.name);
-                setOpen(false);
-                setInputValue("");
-              }
-            }}
-          >
-            {country?.name}
-          </li>
-        ))}
+        
       </ul>
     </div>
     <div className="flex py-10">
