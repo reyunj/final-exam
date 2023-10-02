@@ -28,7 +28,7 @@ Consistency helps in creating a professional and trustworthy impression.
 
 ##Challenges Faced and How I'm Overcome:
 
-#Limited Technical Knowledge: If I was a beginner, one of the major challenges might have been a lack of technical knowledge. 
+<li>Limited Technical Knowledge: If I was a beginner, one of the major challenges might have been a lack of technical knowledge.</li>
 To overcome this, I would have started with online tutorials and courses to learn the basics of web development. 
 #Technical Issues: Technical glitches and bugs are common, especially for beginners. I would have been proactive in troubleshooting issues by searching for solutions online.
 
