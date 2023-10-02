@@ -10,7 +10,12 @@ PLEASE CHECK THE LINK:
 #
 #
 #
-This is a Next.js project bootstrapped with create-next-app.
+<h1>This is a Next.js project bootstrapped with create-next-app.</h1>
+#
+#
+#
+#
+
 
 Getting Started
 First, run the development server:
