@@ -10,7 +10,7 @@ PLEASE CHECK THE LINK:
 #
 #
 #
-<h1>This is a Next.js project bootstrapped with create-next-app.</h1>
+<h1>Create a folder with a create-next-app.</h1>
 #
 #
 #
