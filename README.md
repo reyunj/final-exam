@@ -2,7 +2,7 @@
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
 </div>
 
-<bold>Steps on how to run this code.<bold>
+<h2>Steps on how to run this code.</h2>
 ALL THE DETAILS IN CLONING THE REPOSITORY FROM GITHUB.
 PLEASE CHECK THE LINK:
 https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
@@ -12,13 +12,10 @@ This is a Next.js project bootstrapped with create-next-app.
 Getting Started
 First, run the development server:
 
-npm run dev
-or
-yarn dev 
-or
-pnpm dev
-or
-bun dev
+<lin>npm run dev</li>
+<lin>yarn dev </li>
+<lin>pnpm dev</li>
+<lin>bun dev</li>
 
 Open http://localhost:3000 with your browser to see the result.
 
