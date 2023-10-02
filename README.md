@@ -1,7 +1,8 @@
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
 </div>
-##Steps on how to run this code.
+
+<bold>Steps on how to run this code.<bold>
 ALL THE DETAILS IN CLONING THE REPOSITORY FROM GITHUB.
 PLEASE CHECK THE LINK:
 https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
