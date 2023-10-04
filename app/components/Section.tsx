@@ -41,7 +41,7 @@ const Section = () => {
                 </svg>
             </button>
         </div>
-        <div className="flex justify-between gap-x-4">
+        <div className="flex flex-col md:flex-row md:justify-between items-center gap-y-5 py-16">
         <div className="w-72 font-medium  py-8">
           <p>Country</p>
       <div
