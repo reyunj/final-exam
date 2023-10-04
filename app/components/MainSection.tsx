@@ -12,6 +12,7 @@ const MainSection = () => {
         <p className='text-center text-base pb-20 font-bold font-sans'>Commodo Con</p>
         <div className='flex flex-col sm:flex-row sm:justify-between items-center gap-20 pb-20'>
         <div className="border rounded-md p-24">
+          <div className='flex items-center flex-col gap-5'>
             <Image src={globeLogo} alt="globe" />
             <p>Ut enim ad minim veniam</p>
             <Image src={person} alt="person" />
@@ -20,8 +21,10 @@ const MainSection = () => {
                   Visit Group
                 </li>
               </Link>
+              </div>
           </div>
           <div className="border rounded-md p-24">
+          <div className='flex items-center flex-col gap-5'>
             <Image src={globeLogo} alt="globe" />
             <p>Ut enim ad minim veniam</p>
             <Image src={person} alt="person" />
@@ -30,20 +33,24 @@ const MainSection = () => {
                   Visit Group
                 </li>
               </Link>
+              </div>
           </div>
           <div className="border rounded-md p-24">
+          <div className='flex items-center flex-col gap-5'>
             <Image src={globeLogo} alt="globe" />
             <p>Ut enim ad minim veniam</p>
             <Image src={person} alt="person" />
-            <Link className="hover:text-teal-700 duration-300 font-sans font-bold flex justify-center items-center" href={"/"}>
+            <Link className="hover:text-teal-700 duration-300 font-sans font-bold flex justify-center" href={"/"}>
                 <li className="rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg [background:linear-gradient(180deg,_#dfed5a,_#47980b)] flex  items-center py-2 px-4">
                   Visit Group
                 </li>
               </Link>
+              </div>
           </div>
         </div>
         <div className='flex flex-col md:flex-row md:justify-between items-center gap-20 pb-20'>
         <div className="border rounded-md p-24">
+          <div className='flex items-center flex-col gap-5'>
             <Image src={globeLogo} alt="globe" />
             <p>Ut enim ad minim veniam</p>
             <Image src={person} alt="person" />
@@ -52,8 +59,10 @@ const MainSection = () => {
                   Visit Group
                 </li>
               </Link>
+              </div>
           </div>
           <div className="border rounded-md p-24">
+          <div className='flex items-center flex-col gap-5'>
             <Image src={globeLogo} alt="globe" />
             <p>Ut enim ad minim veniam</p>
             <Image src={person} alt="person" />
@@ -62,8 +71,10 @@ const MainSection = () => {
                   Visit Group
                 </li>
               </Link>
+              </div>
           </div>
           <div className="border rounded-md p-24">
+          <div className='flex items-center flex-col gap-5'>
             <Image src={globeLogo} alt="globe" />
             <p>Ut enim ad minim veniam</p>
             <Image src={person} alt="person" />
@@ -72,6 +83,7 @@ const MainSection = () => {
                   Visit Group
                 </li>
               </Link>
+              </div>
           </div>
           </div>
         </div>
