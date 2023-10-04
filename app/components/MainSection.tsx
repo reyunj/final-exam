@@ -9,9 +9,9 @@ const MainSection = () => {
   return (
     <main>
         <div className='container mx-auto'>
-        <p className='text-center text-sm pb-20'>Commodo Con</p>
-        <div className='px-80 flex flex-col md:flex-row md:justify-between items-center'>
-        <div className="border rounded-md py-32 px-32">
+        <p className='text-center text-base pb-20 font-bold font-mono'>Commodo Con</p>
+        <div className='flex flex-col sm:flex-row sm:justify-between items-center gap-20 pb-20'>
+        <div className="border rounded-md  py-32 px-32">
             <Image src={globeLogo} alt="globe" />
             <p>Ut enim ad minim veniam</p>
             <Image src={person} alt="person" />
@@ -42,7 +42,7 @@ const MainSection = () => {
               </Link>
           </div>
         </div>
-        <div className='px-80 flex flex-col md:flex-row md:justify-between items-center'>
+        <div className='flex flex-col md:flex-row md:justify-between items-center gap-20 pb-20'>
         <div className="border rounded-md py-32 px-32">
             <Image src={globeLogo} alt="globe" />
             <p>Ut enim ad minim veniam</p>
