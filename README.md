@@ -9,6 +9,7 @@ PLEASE CHECK THE LINK:
 #
 #
 #
+test
 #
 <h1>Create a folder with a create-next-app.</h1>
 #
