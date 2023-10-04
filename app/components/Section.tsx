@@ -176,7 +176,7 @@ const Section = () => {
     </div>
     <div className="flex py-10">
     <Link href="/">
-            <li className="rounded-tl-lg rounded-tr rounded-br rounded-bl-lg [background:linear-gradient(180deg,_#3ed2ff,_#1839d8)]  flex flex-row items-center   py-2.5 px-6 text-white">Clear Filter</li>
+            <li className="rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg [background:linear-gradient(180deg,_#3ed2ff,_#1839d8)]  flex flex-row items-center   py-2.5 px-6 text-white">Clear Filter</li>
             </Link>
     </div>
   </div>

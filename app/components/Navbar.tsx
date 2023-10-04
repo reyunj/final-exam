@@ -67,16 +67,22 @@ const Navbar = () => {
             <Link href="/">
             <li className="py-4">Events</li>
             </Link>
-            <Link href="/">
-            <li className="py-4" >Find A Group</li>
-            </Link>
-            <Link href="/">
-            <li className="py-4">Start A Group</li>
-            </Link>
-            <Link href="/">
-            <li className="py-4">Login</li>
-            </Link>
           </ul>
+          <div className="py-4">
+            <Link href="/">
+            <div className="rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg [background:linear-gradient(180deg,_#3ed2ff,_#1839d8)] flex flex-row items-center  py-2.5 px-5 text-white">Find A Group</div>
+            </Link>
+            </div>
+            <div className="py-4">
+            <Link href="/">
+            <div className="rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg [background:linear-gradient(180deg,_#dfed5a,_#47980b)] flex flex-row items-center  py-2.5 px-5 ">Start A Group</div>
+            </Link>
+            </div>
+            <div className="py-4">
+            <Link href="/">
+            <p>Login</p>
+            </Link>
+            </div>
         </div>
       </div>
     </nav>

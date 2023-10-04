@@ -12,7 +12,7 @@ const MainSection = () => {
         <p className='text-center text-base pb-20 font-bold font-sans'>Commodo Con</p>
         <div className='flex flex-col sm:flex-row sm:justify-between items-center gap-20 pb-20'>
         <div className="border rounded-md p-24">
-          <div className='flex items-center flex-col gap-5'>
+          <div className='flex items-center flex-col gap-5 font-bold'>
             <Image src={globeLogo} alt="globe" />
             <p>Ut enim ad minim veniam</p>
             <Image src={person} alt="person" />
@@ -24,7 +24,7 @@ const MainSection = () => {
               </div>
           </div>
           <div className="border rounded-md p-24">
-          <div className='flex items-center flex-col gap-5'>
+          <div className='flex items-center flex-col gap-5 font-bold'>
             <Image src={globeLogo} alt="globe" />
             <p>Ut enim ad minim veniam</p>
             <Image src={person} alt="person" />
@@ -36,7 +36,7 @@ const MainSection = () => {
               </div>
           </div>
           <div className="border rounded-md p-24">
-          <div className='flex items-center flex-col gap-5'>
+          <div className='flex items-center flex-col gap-5 font-bold'>
             <Image src={globeLogo} alt="globe" />
             <p>Ut enim ad minim veniam</p>
             <Image src={person} alt="person" />
@@ -50,7 +50,7 @@ const MainSection = () => {
         </div>
         <div className='flex flex-col md:flex-row md:justify-between items-center gap-20 pb-20'>
         <div className="border rounded-md p-24">
-          <div className='flex items-center flex-col gap-5'>
+          <div className='flex items-center flex-col gap-5 font-bold'>
             <Image src={globeLogo} alt="globe" />
             <p>Ut enim ad minim veniam</p>
             <Image src={person} alt="person" />
@@ -62,7 +62,7 @@ const MainSection = () => {
               </div>
           </div>
           <div className="border rounded-md p-24">
-          <div className='flex items-center flex-col gap-5'>
+          <div className='flex items-center flex-col gap-5 font-bold'>
             <Image src={globeLogo} alt="globe" />
             <p>Ut enim ad minim veniam</p>
             <Image src={person} alt="person" />
@@ -74,7 +74,7 @@ const MainSection = () => {
               </div>
           </div>
           <div className="border rounded-md p-24">
-          <div className='flex items-center flex-col gap-5'>
+          <div className='flex items-center flex-col gap-5 font-bold'>
             <Image src={globeLogo} alt="globe" />
             <p>Ut enim ad minim veniam</p>
             <Image src={person} alt="person" />
