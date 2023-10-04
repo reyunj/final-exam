@@ -8,8 +8,10 @@ import Link from 'next/link'
 const MainSection = () => {
   return (
     <main>
-        <div className='px-80 flex justify-between gap-10 gap-y-10 py-10'>
-        <div className="flex flex-col justify-between items-center p-32 flex-1 self-stretch gap-x-8 border rounded-md py-10 px-2 ">
+        <div className='container mx-auto'>
+        <p className='text-center text-sm pb-20'>Commodo Con</p>
+        <div className='px-80 flex flex-col md:flex-row md:justify-between items-center'>
+        <div className="border rounded-md py-10 px-2 ">
             <Image src={globeLogo} alt="globe" />
             <p>Ut enim ad minim veniam</p>
             <Image src={person} alt="person" />
@@ -19,7 +21,7 @@ const MainSection = () => {
                 </li>
               </Link>
           </div>
-          <div className="flex flex-col justify-between items-center p-32 flex-1 self-stretch gap-x-8 border rounded-md py-10 px-2 ">
+          <div className="border rounded-md py-10 px-2 ">
             <Image src={globeLogo} alt="globe" />
             <p>Ut enim ad minim veniam</p>
             <Image src={person} alt="person" />
@@ -29,7 +31,7 @@ const MainSection = () => {
                 </li>
               </Link>
           </div>
-          <div className="flex flex-col justify-between items-center p-32 flex-1 self-stretch gap-x-8 border rounded-md py-10 px-2">
+          <div className="border rounded-md py-10 px-2">
             <Image src={globeLogo} alt="globe" />
             <p>Ut enim ad minim veniam</p>
             <Image src={person} alt="person" />
@@ -40,8 +42,8 @@ const MainSection = () => {
               </Link>
           </div>
         </div>
-        <div className='px-80 flex justify-between  gap-10 gap-y-10'>
-        <div className="flex flex-col justify-between items-center p-32 flex-1 self-stretch gap-x-8 border rounded-md py-10 px-2">
+        <div className='px-80 flex flex-col md:flex-row md:justify-between items-center'>
+        <div className="border rounded-md py-10 px-2">
             <Image src={globeLogo} alt="globe" />
             <p>Ut enim ad minim veniam</p>
             <Image src={person} alt="person" />
@@ -51,7 +53,7 @@ const MainSection = () => {
                 </li>
               </Link>
           </div>
-          <div className="flex flex-col justify-between items-center p-32 flex-1 self-stretch gap-x-8 border rounded-md py-10 px-2">
+          <div className="border rounded-md py-10 px-2">
             <Image src={globeLogo} alt="globe" />
             <p>Ut enim ad minim veniam</p>
             <Image src={person} alt="person" />
@@ -61,7 +63,7 @@ const MainSection = () => {
                 </li>
               </Link>
           </div>
-          <div className="flex flex-col justify-between items-center p-32 flex-1 self-stretch gap-x-8 border rounded-md py-10 px-2">
+          <div className="border rounded-md py-10 px-2">
             <Image src={globeLogo} alt="globe" />
             <p>Ut enim ad minim veniam</p>
             <Image src={person} alt="person" />
@@ -70,6 +72,7 @@ const MainSection = () => {
                   Visit Group
                 </li>
               </Link>
+          </div>
           </div>
         </div>
         <div className="flex justify-center py-5 items-center max-w-screen-xl mx-auto px-4">
@@ -82,7 +85,7 @@ const MainSection = () => {
               </Link>
             </div>
           </div>
-        </div>
+          </div>
     </main>
   )
 }

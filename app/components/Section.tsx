@@ -181,10 +181,6 @@ const Section = () => {
             </Link>
     </div>
   </div>
-  <div className="flex justify-center font-bold">
-      Commodo Con
-    </div>
-    
   </div>
   </section>
   )
