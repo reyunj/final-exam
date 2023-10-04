@@ -11,7 +11,7 @@ const MainSection = () => {
         <div className='container mx-auto'>
         <p className='text-center text-sm pb-20'>Commodo Con</p>
         <div className='px-80 flex flex-col md:flex-row md:justify-between items-center'>
-        <div className="border rounded-md py-32 px-32x`">
+        <div className="border rounded-md py-32 px-32">
             <Image src={globeLogo} alt="globe" />
             <p>Ut enim ad minim veniam</p>
             <Image src={person} alt="person" />
