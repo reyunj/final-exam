@@ -33,9 +33,9 @@ const Footer = () => {
                     <h4 className="pb-4 font-bold">Contact Us</h4>
                     <ul>
                         <li className="pb-2">4517 Washington Ave.</li>
-                        <li> Manchester, Kentucky 39495</li>
+                        <li className="pb-2"> Manchester, Kentucky 39495</li>
                         <li className="pb-2">(555) 543 - 7653</li>
-                        <li>.</li>
+                        <li className="pb-2">.</li>
                     </ul>
                 </div>
                 <div>
