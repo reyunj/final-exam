@@ -11,7 +11,7 @@ const Navbar = () => {
         setMenuOpen(!menuOpen);
   }
   return (
-    <nav className="py-10 h-auto z-20 sticky inset-0 backdrop-blur-md">
+    <nav className="py-10 h-auto z-20 sticky inset-0 backdrop-blur-md font-sans text-[#414141]">
       <div className="flex justify-between items-center h-full w-full px-4 2xl:px-80">
         <Link href="/">
           <Image src={logo} alt="logo" width="97" height="82" priority />

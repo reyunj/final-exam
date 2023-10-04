@@ -6,6 +6,8 @@ import Hero from './components/Hero'
 import Section from './components/Section'
 import Footer from './components/Footer'
 import MainSection from './components/MainSection'
+
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {

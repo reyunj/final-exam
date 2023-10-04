@@ -8,7 +8,7 @@ import footer from '@/public/footer.png'
 const Footer = () => {
   return (
     <footer>
-      <div className="bg-gradient-to-b from-blue-700 to-transparent bg-blend-multiply text-white">
+      <div className="bg-gradient-to-b from-blue-700 to-transparent bg-blend-multiply text-white font-sans text-base">
         <div className="container mx-auto">
           <div  className="flex flex-col md:flex-row md:justify-between items-center gap-y-5 py-16">
                 <div>
