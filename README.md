@@ -21,7 +21,7 @@ Getting Started
 First, run the development server:
 First command
 <li>npm install</li>
-<li>then</li>
+then
 <li>npm run dev</li>
 
 Open http://localhost:3000 with your browser to see the result.
