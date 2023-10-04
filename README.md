@@ -19,6 +19,7 @@ PLEASE CHECK THE LINK:
 
 Getting Started
 First, run the development server:
+First command npm install then:
 
 <li>npm run dev</li>
 <li>yarn dev </li>
