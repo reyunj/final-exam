@@ -18,16 +18,15 @@ const Section = () => {
       });
   }, []);
   return (
-    <section >
-      <div className="px-80 py-8">
+    <section className="flex flex-col md:flex-row md:justify-between items-center gap-y-5 py-16">
+      <div className="container mx-auto">
+      <div className="py-8">
 <div className="relative w-full text-gray-600">
             <input
                 type="search"
                 name="search"
                 placeholder="search..."
-                className="bg-white h-10 px-8 pr-10 w-full rounded-md text-sm focus:outline-none border"
-
-            />
+                className="bg-white h-10 px-8 pr-10 w-full rounded-md text-sm focus:outline-none border flex-col md:flex-row"/>
             <button type="submit" className="absolute left-3 top-0 mt-3 mr-3">
                 <svg
                     className="h-4 w-4 fill-current"
@@ -180,6 +179,7 @@ const Section = () => {
             <li className="rounded-tl-lg rounded-tr rounded-br rounded-bl-lg [background:linear-gradient(180deg,_#3ed2ff,_#1839d8)]  flex flex-row items-center   py-2.5 px-6 text-white">Clear Filter</li>
             </Link>
     </div>
+  </div>
   </div>
   </div>
   </section>
