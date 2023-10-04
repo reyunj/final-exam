@@ -19,12 +19,10 @@ PLEASE CHECK THE LINK:
 
 Getting Started
 First, run the development server:
-First command npm install then:
-
+First command
+<li>npm install</li>
+<li>then</li>
 <li>npm run dev</li>
-<li>yarn dev </li>
-<li>pnpm dev</li>
-<li>bun dev</li>
 
 Open http://localhost:3000 with your browser to see the result.
 
