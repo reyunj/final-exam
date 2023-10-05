@@ -8,7 +8,7 @@ import camera from "@/public/camera.png";
 
 const MainSection = () => {
   return (
-    <main>
+    <main className="flex flex-col items-center">
       <div className="container mx-auto font-sans text-[#414141]">
         <p className="text-center text-base pb-20 font-bold font-sans ">
           Commodo Con
