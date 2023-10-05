@@ -31,10 +31,10 @@ const Navbar = () => {
             <li className="px-8">Events</li>
             </Link>
             <Link href="/">
-            <li className="rounded-tl-lg rounded-tr-none rounded-br-none rounded-bl-lg [background:linear-gradient(180deg,_#3ed2ff,_#1839d8)]  flex flex-row items-center   py-2.5 px-5 text-white">Find A Group</li>
+            <li className="rounded-tl-lg rounded-tr-none rounded-br-none rounded-bl-lg [background:linear-gradient(180deg,_#3ed2ff,_#1839d8)]  flex flex-row items-center   py-2.5 px-5 text-white font-bold">Find A Group</li>
             </Link>
             <Link href="/">
-            <li className="rounded-tl-none rounded-tr-lg rounded-br-lg rounded-bl-none [background:linear-gradient(180deg,_#dfed5a,_#47980b)] flex flex-row items-center  py-2.5 px-5 ">Start A Group</li>
+            <li className="rounded-tl-none rounded-tr-lg rounded-br-lg rounded-bl-none [background:linear-gradient(180deg,_#dfed5a,_#47980b)] flex flex-row items-center  py-2.5 px-5 font-bold">Start A Group</li>
             </Link>
             <Link href="/">
             <li className="px-10 font-bold">Login</li>
@@ -70,17 +70,17 @@ const Navbar = () => {
           </ul>
           <div className="py-4">
             <Link href="/">
-            <div className="rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg [background:linear-gradient(180deg,_#3ed2ff,_#1839d8)] flex flex-row items-center  py-2.5 px-5 text-white">Find A Group</div>
+            <div className="rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg [background:linear-gradient(180deg,_#3ed2ff,_#1839d8)] flex flex-row items-center  py-2.5 px-5 text-white font-bold">Find A Group</div>
             </Link>
             </div>
             <div className="py-4">
             <Link href="/">
-            <div className="rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg [background:linear-gradient(180deg,_#dfed5a,_#47980b)] flex flex-row items-center  py-2.5 px-5 ">Start A Group</div>
+            <div className="rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg [background:linear-gradient(180deg,_#dfed5a,_#47980b)] flex flex-row items-center  py-2.5 px-5 font-bold">Start A Group</div>
             </Link>
             </div>
             <div className="py-4">
             <Link href="/">
-            <p>Login</p>
+            <p className="font-bold">Login</p>
             </Link>
             </div>
         </div>

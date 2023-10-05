@@ -120,7 +120,7 @@ const MainSection = () => {
         <div className="flex max-w-screen-xl mx-auto px-4">
           <div>
             <Link className="hover:text-black-600 duration-300" href={"/"}>
-              <li className="rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg [background:linear-gradient(180deg,_#3ed2ff,_#1839d8)] flex  items-center py-2.5 px-5 text-white">
+              <li className="rounded-tl-lg rounded-tr-lg rounded-br-lg rounded-bl-lg [background:linear-gradient(180deg,_#3ed2ff,_#1839d8)] flex  items-center py-2.5 px-5 text-white font-bold">
                 Load More
               </li>
             </Link>
