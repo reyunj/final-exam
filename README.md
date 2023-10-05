@@ -4,7 +4,7 @@
 
 <h1 align="center">Steps on how to run this code.</h2>
 ALL THE DETAILS IN CLONING THE REPOSITORY FROM GITHUB.
-#PLEASE CHECK THE LINK:
+<p align="center">PLEASE CHECK THE LINK:</p>
 <li>https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository</li>
 #
 #
