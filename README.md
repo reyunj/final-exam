@@ -28,7 +28,10 @@ Open http://localhost:3000 with your browser to see the result.
 
 <h1>Design Decisions:</h1>
 <li>Consistent Branding: I maintained a consistent color scheme, typography, and overall branding throughout the website.</li>
-    Consistency helps in creating a professional and trustworthy impression.
+<li>Consistency helps in creating a professional and trustworthy impression.</li>
+<li>Responsiveness:Decide if your website should be responsive, adapting to different screen sizes (e.g., mobile devices). A responsive design is essential for reaching a broader audience.</li>
+<li>Content Layout:Plan how your content will be laid out on each page. Use grids and whitespace to create a clean and organized appearance.</li>
+</li>User Experience (UX):Prioritize user-friendly design. Make sure navigation is intuitive, and pages load quickly. Aim for a seamless and enjoyable user experience.</li>
 
 <h1>Challenges Faced and How I'm Overcome:</h1>
 
