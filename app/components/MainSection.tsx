@@ -8,12 +8,12 @@ import camera from "@/public/camera.png";
 
 const MainSection = () => {
   return (
-    <main className="flex flex-col items-center">
-      <div className="container mx-auto font-sans text-[#414141]">
+    <main>
+      <div className="mx-auto font-sans text-[#414141]">
         <p className="text-center text-base pb-20 font-bold font-sans ">
           Commodo Con
         </p>
-        <div className="flex flex-col sm:flex-row sm:justify-between items-center px-64 py-6 gap-y-6 gap-x-2">
+        <div className="flex flex-col md:flex-row md:justify-between items-center px-64 py-6 gap-y-6 gap-x-2">
           <div className="border rounded-md">
             <div className="flex items-center flex-col gap-5 font-semibold text-xl w-80 p-8">
               <Image src={globeLogo} alt="globe" />
@@ -65,7 +65,7 @@ const MainSection = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col sm:flex-row sm:justify-between items-center px-64  gap-y-6 gap-x-2">
+        <div className="flex flex-col lg:flex-row lg:justify-between items-center px-64  gap-y-6 gap-x-2">
         <div className="border rounded-md ">
             <div className="flex items-center flex-col gap-5 font-semibold text-xl w-80 p-8">
               <Image src={globeLogo} alt="globe" />
@@ -116,7 +116,7 @@ const MainSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center py-5 items-center max-w-screen-xl mx-auto px-4">
+      <div className="flex flex-col md:flex-row md:justify-between py-5 max-w-screen-xl mx-auto px-4">
         <div className="flex max-w-screen-xl mx-auto px-4">
           <div>
             <Link className="hover:text-black-600 duration-300" href={"/"}>
