@@ -41,4 +41,4 @@ To overcome this, I would have started with online tutorials and courses to lear
 
 <h3>Overall, while building a website as a beginner can be challenging, dedication to learning and seeking assistance from online resources and communities can help overcome these challenges and create a beginner website. Although not all design is copy but I'll try making this exam my very best.</h3>
 
-<p align="center"><h1> Thank you and God Bless </h1></p>
+<h1 align="center"> Thank you and God Bless </h1>
