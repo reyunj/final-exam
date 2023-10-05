@@ -10,12 +10,12 @@ const MainSection = () => {
   return (
     <main>
       <div className="container mx-auto font-sans text-[#414141]">
-        <p className="text-center text-base pb-20 font-bold font-sans">
+        <p className="text-center text-base pb-20 font-bold font-sans ">
           Commodo Con
         </p>
-        <div className="flex flex-col sm:flex-row sm:justify-between items-center gap-10 pb-10">
-          <div className="border rounded-md gap-8 p-8">
-            <div className="flex items-center flex-col gap-5 font-semibold text-xl ">
+        <div className="flex flex-col sm:flex-row sm:justify-between items-center px-64 py-6 gap-y-6">
+          <div className="border rounded-md">
+            <div className="flex items-center flex-col gap-5 font-semibold text-xl w-80 p-8">
               <Image src={globeLogo} alt="globe" />
               <p className="text-center">Ut enim ad minim veniam</p>
               <div className="pb-2">
@@ -31,8 +31,8 @@ const MainSection = () => {
               </Link>
             </div>
           </div>
-          <div className="border rounded-md gap-8 p-8">
-            <div className="flex items-center flex-col gap-5 font-semibold text-xl">
+          <div className="border rounded-md">
+            <div className="flex items-center flex-col gap-5 font-semibold text-xl w-80 p-8">
               <Image src={globeLogo} alt="globe" />
               <p className="text-center">Neque porro quisquam est</p>
               <div className="flex justify-center gap-x-10">
@@ -49,8 +49,8 @@ const MainSection = () => {
               </Link>
             </div>
           </div>
-          <div className="border rounded-md gap-8 p-8">
-            <div className="flex items-center flex-col gap-5 font-semibold text-xl">
+          <div className="border rounded-md">
+            <div className="flex items-center flex-col gap-5 font-semibold text-xl w-80 p-8">
               <Image src={globeLogo} alt="globe" />
               <p className="text-center">Lorem ipsum dolor sit amet</p>
               <Image src={person} alt="person" />
@@ -65,9 +65,9 @@ const MainSection = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col sm:flex-row sm:justify-between items-center gap-10 pb-10">
+        <div className="flex flex-col sm:flex-row sm:justify-between items-center px-64  gap-y-6">
         <div className="border rounded-md ">
-            <div className="flex items-center flex-col gap-5 font-semibold text-xl max-w-md ">
+            <div className="flex items-center flex-col gap-5 font-semibold text-xl w-80 p-8">
               <Image src={globeLogo} alt="globe" />
               <p className="text-center ">Qui dolorem ipsum quia dolor sit amet</p>
               <Image src={person} alt="person" />
@@ -82,7 +82,7 @@ const MainSection = () => {
             </div>
           </div>
           <div className="border rounded-md ">
-            <div className="flex items-center flex-col gap-5 font-semibold text-xl">
+            <div className="flex items-center flex-col gap-5 font-semibold text-xl w-80 p-8">
               <Image src={globeLogo} alt="globe" />
               <p className="text-center ">Quis nostrud exercitation ullamco laboris nisi</p>
               <div className="flex justify-center gap-x-10">
@@ -100,7 +100,7 @@ const MainSection = () => {
             </div>
           </div>
           <div className="border rounded-md">
-            <div className="flex items-center flex-col gap-5 font-semibold text-xl ">
+            <div className="flex items-center flex-col gap-5 font-semibold text-xl w-80 p-8">
               <Image src={globeLogo} alt="globe" />
               <p className="text-center">Sed do eiusmod tempor incididunt ut labore</p>
               <Image src={person} alt="person" />
