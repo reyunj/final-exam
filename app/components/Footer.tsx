@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="bg-gradient-to-b from-blue-950 to-transparent bg-blue-700 text-white font-sans text-base ">
         <div className="container mx-auto w-3/5">
           <div  className="flex flex-col md:flex-row md:justify-between items-center gap-y-5 py-16">
-                <div>
+                <div className="w-60">
                 <h4 className="pb-4 font-bold">Get Started</h4>
                     <ul>
                     <Link href="/">
@@ -29,7 +29,7 @@ const Footer = () => {
                         </Link>
                     </ul>
                 </div>
-                <div>
+                <div className="w-60">
                     <h4 className="pb-4 font-bold">About</h4>
                     <ul>
                     <Link href="/">
@@ -46,28 +46,24 @@ const Footer = () => {
                         </Link>
                     </ul>
                 </div>
-                <div>
+                <div className=" w-60">
                     <h4 className="pb-4 font-bold">Contact Us</h4>
                     <ul>
-                    <Link href="/">
                         <li className="pb-2">4517 Washington Ave.</li>
-                        </Link>
-                        <Link href="/">
                         <li className="pb-2"> Manchester, Kentucky 39495</li>
-                        </Link>
-                        <Link href="/">
                         <li className="pb-2">(555) 543 - 7653</li>
-                        </Link>
-                        <li className="pb-2">.</li>
+                        <p className="pb-2">`</p>
                     </ul>
                 </div>
+                <div className="w-60">
                     <Link href="/">
                     <Image src={footer} alt= 'footer'/>
                     </Link>
+                    </div>
                 </div>
         </div>
       </div>
-      <div  className="bg-blue-950 text-white font-light p-4 text-2xl">
+      <div  className="bg-blue-950 text-white font-light p-4 text-2xl ">
       <div className="container mx-auto w-3/5">
         <div className="flex flex-col md:flex-row md:justify-between items-center">
               <p className="text-center text-sm pb-3">Copyright © 2023 Lorem Ipsum. All rights reserved. | AGDP IT Solutions</p>
