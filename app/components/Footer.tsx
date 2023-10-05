@@ -8,8 +8,8 @@ import footer from '@/public/footer.png'
 const Footer = () => {
   return (
     <footer>
-      <div className="bg-gradient-to-b from-blue-950 to-transparent bg-blue-700 text-white font-sans text-base">
-        <div className="container mx-auto">
+      <div className="bg-gradient-to-b from-blue-950 to-transparent bg-blue-700 text-white font-sans text-base ">
+        <div className="container mx-auto w-3/5">
           <div  className="flex flex-col md:flex-row md:justify-between items-center gap-y-5 py-16">
                 <div>
                 <h4 className="pb-4 font-bold">Get Started</h4>
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
       </div>
       <div  className="bg-blue-950 text-white font-light p-4 text-2xl">
-      <div className="container mx-auto">
+      <div className="container mx-auto w-3/5">
         <div className="flex flex-col md:flex-row md:justify-between items-center">
               <p className="text-center text-sm pb-3">Copyright © 2023 Lorem Ipsum. All rights reserved. | AGDP IT Solutions</p>
               <div className="flex gap-x-5 items-center">

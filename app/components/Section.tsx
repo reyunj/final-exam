@@ -18,7 +18,7 @@ const Section = () => {
       });
   }, []);
   return (
-    <section className="flex flex-col md:flex-row md:justify-between items-center gap-y-5 py-16">
+    <section className="flex flex-col md:flex-row md:justify-between items-center">
       <div className="container mx-auto">
       <div className="py-8">
 <div className="relative w-full text-gray-600">

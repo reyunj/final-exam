@@ -9,11 +9,11 @@ import camera from "@/public/camera.png";
 const MainSection = () => {
   return (
     <main>
-      <div className="mx-auto font-sans text-[#414141]">
-        <p className="text-center text-base pb-20 font-bold font-sans ">
+      <div className="mx-auto font-sans text-[#414141] w-3/5">
+        <h2 className="text-center text-2xl font-bold font-sans text-[#414141]">
           Commodo Con
-        </p>
-        <div className="flex flex-col md:flex-row md:justify-between items-center px-64 py-6 gap-y-6 gap-x-2">
+        </h2>
+        <div className="flex flex-col md:flex-row md:justify-between items-center gap-y-6 gap-x-2 py-4 px-16">
           <div className="border rounded-md">
             <div className="flex items-center flex-col gap-5 font-semibold text-xl w-80 p-8">
               <Image src={globeLogo} alt="globe" />
@@ -65,7 +65,7 @@ const MainSection = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row lg:justify-between items-center px-64  gap-y-6 gap-x-2">
+        <div className="flex flex-col lg:flex-row lg:justify-between items-center gap-y-6 gap-x-2 px-16">
         <div className="border rounded-md ">
             <div className="flex items-center flex-col gap-5 font-semibold text-xl w-80 p-8">
               <Image src={globeLogo} alt="globe" />
