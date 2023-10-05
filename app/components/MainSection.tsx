@@ -13,7 +13,7 @@ const MainSection = () => {
         <p className="text-center text-base pb-20 font-bold font-sans ">
           Commodo Con
         </p>
-        <div className="flex flex-col sm:flex-row sm:justify-between items-center px-64 py-6 gap-y-6">
+        <div className="flex flex-col sm:flex-row sm:justify-between items-center px-64 py-6 gap-y-6 gap-x-2">
           <div className="border rounded-md">
             <div className="flex items-center flex-col gap-5 font-semibold text-xl w-80 p-8">
               <Image src={globeLogo} alt="globe" />
@@ -65,7 +65,7 @@ const MainSection = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col sm:flex-row sm:justify-between items-center px-64  gap-y-6">
+        <div className="flex flex-col sm:flex-row sm:justify-between items-center px-64  gap-y-6 gap-x-2">
         <div className="border rounded-md ">
             <div className="flex items-center flex-col gap-5 font-semibold text-xl w-80 p-8">
               <Image src={globeLogo} alt="globe" />
